@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/search",
+    "pages/images"
+   
+  ],
+  "window": {
+    "navigationBarTitleText": "图片搜索",
+    "backgroundColor": "#000"
+  }
+}

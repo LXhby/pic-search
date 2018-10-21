@@ -1,0 +1,15 @@
+/* pages/images.wxss */
+@import "/template/image.wxss";
+.imgs-container{
+  box-sizing: border-box;
+  padding: 5rpx;
+  width: 100vw;
+  height: 100vh;
+}
+.imgs-box{
+  display: flex;
+}
+.imgs-list{
+  flex: 1;
+}
+

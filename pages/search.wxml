@@ -1,0 +1,14 @@
+<!--pages/index.wxml-->
+<image src='/images/5.jpg' class='bgpic'></image>
+<view class='ipt'>
+  <view class='text'>图片搜索</view>
+  <form class='search-form' bindsubmit='query'>
+    <button form-type='submit'>
+      <image src='/images/1.png' class='search' bindtap='search'></image>
+    </button>
+    <input name="q"></input>
+  </form>
+  <view class='like'>
+    <navigator wx:for="{{like}}" url="/pages/images?q={{item}}">{{item}}</navigator>
+  </view>
+</view>
